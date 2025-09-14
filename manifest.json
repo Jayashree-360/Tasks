@@ -1,0 +1,74 @@
+{
+  "name": "Daily Planner",
+  "short_name": "Planner",
+  "description": "Personal productivity app for managing daily routines, tasks, and notes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["productivity", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjU2OCIgdmlld0JveD0iMCAwIDMyMCA1NjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMjAiIGhlaWdodD0iNTY4IiBmaWxsPSIjRjlGQUZCIi8+CjxyZWN0IHg9IjE2IiB5PSIzMiIgd2lkdGg9IjI4OCIgaGVpZ2h0PSI1MDQiIHJ4PSI4IiBmaWxsPSJ3aGl0ZSIvPgo8dGV4dCB4PSIzMiIgeT0iNjQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxMTEiPkRhaWx5IFBsYW5uZXI8L3RleHQ+CjxyZWN0IHg9IjMyIiB5PSI5NiIgd2lkdGg9IjI1NiIgaGVpZ2h0PSI0IiByeD0iMiIgZmlsbD0iIzI1NjNFQiIvPgo8L3N2Zz4K",
+      "sizes": "320x568",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iOCIgZmlsbD0iIzI1NjNFQiIvPgo8cGF0aCBkPSJNMTQgMTJIMzRWMTZIMTRWMTJaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTQgMjBIMzBWMjRIMTRWMjBaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTQgMjhIMjZWMzJIMTRWMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8Y2lyY2xlIGN4PSIzNCIgY3k9IjMwIiByPSIzIiBmaWxsPSIjMTBCOTgxIi8+Cjwvc3ZnPgo=",
+      "sizes": "48x48",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTYiIGZpbGw9IiMyNTYzRUIiLz4KPHBhdGggZD0iTTI4IDI0SDY4VjMySDI4VjI0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTI4IDQwSDYwVjQ4SDI4VjQwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTI4IDU2SDUyVjY0SDI4VjU2WiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iNjgiIGN5PSI2MCIgcj0iNiIgZmlsbD0iIzEwQjk4MSIvPgo8L3N2Zz4K",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMzIiIGZpbGw9IiMyNTYzRUIiLz4KPHBhdGggZD0iTTU2IDQ4SDEzNlY2NEg1NlY0OFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik01NiA4MEgxMjBWOTZINTZWODBaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNTYgMTEySDEwNFYxMjhINTZWMTEyWiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMTM2IiBjeT0iMTIwIiByPSIxMiIgZmlsbD0iIzEwQjk4MSIvPgo8L3N2Zz4K",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iODYiIGZpbGw9IiMyNTYzRUIiLz4KPHBhdGggZD0iTTE1MCAxMjhIMzYyVjE3MEgxNTBWMTI4WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTE1MCAyMTRIMzIwVjI1NkgxNTBWMjE0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTE1MCAzMDBIMjc4VjM0MkgxNTBWMzAwWiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMzYyIiBjeT0iMzIxIiByPSIzMiIgZmlsbD0iIzEwQjk4MSIvPgo8L3N2Zz4K",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's Tasks",
+      "short_name": "Today",
+      "description": "View today's schedule and tasks",
+      "url": "/?tab=today",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTYiIGZpbGw9IiMyNTYzRUIiLz4KPHBhdGggZD0iTTI4IDI0SDY4VjMySDI4VjI0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Add Task",
+      "short_name": "Add",
+      "description": "Quickly add a new task",
+      "url": "/?tab=tasks&action=add",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTYiIGZpbGw9IiMxMEI5ODEiLz4KPHBhdGggZD0iTTQ0IDQ0VjI4SDUyVjQ0SDY4VjUySDUyVjY4SDQ0VjUySDI4VjQ0SDQ0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
